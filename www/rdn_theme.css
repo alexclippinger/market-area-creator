@@ -1,0 +1,115 @@
+.table{
+	margin: 0 auto;
+	}
+          
+.btn-file {
+	background-color:#3C8DBC;
+	border-color:#3C8DBC;
+	}
+          
+.btn-file:hover {
+	background-color:#1c80ba;
+    border-color:#003a5c;
+    color:white;
+    }
+          
+.arrow_box {
+	position: absolute;
+	pointer-events: none;
+    z-index: 100;
+    white-space: nowrap;
+    background: #1F77B4;
+    color: white;
+	font-size: 13px;
+    border: 1px solid;
+    border-color: CornflowerBlue;
+    border-radius: 1px;
+	}
+          
+	.arrow_box:after, .arrow_box:before {
+		right: 100%;
+		top: 50%;
+		border: solid transparent;
+		content: ' ';
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		}
+
+	.arrow_box:after {
+		border-color: rgba(136,183,213,0);
+		border-right-color: #1F77B4;
+		border-width: 4px;
+		margin-top: -4px;
+		}
+
+	.arrow_box:before {
+		border-color: rgba(194,225,245,0);
+		border-right-color: #1F77B4;
+		border-width: 10px;
+		margin-top: -10px;
+		}
+          
+.tooltip-inner {
+	width: 1000px;
+	padding: 10px;
+	font-size: 14px;
+	border: 1px solid white;
+	background-color:#1F77B4;
+	}
+          
+	.tooltip.right > .tooltip-arrow {
+		border-right: 5px solid #1F77B4;
+		}
+
+	.tooltip.top > .tooltip-arrow {
+		border-top: 5px solid #1F77B4;
+		}
+
+	.sidebar-menu .treeview-menu{
+		padding: 0 0 50px 0;
+		}
+          
+#dashboard{
+	margin-bottom:1000px;
+    }
+
+.wrapper{
+	height:100%;
+	position:relative;
+	overflow-x:hidden;
+	overflow-y:hidden
+	}
+
+.main-header .logo{
+	padding: 0px 0px; 
+	margin-left:0px;
+	}
+          
+/* Popover Header */
+          
+.popover-title {
+	background-color: #1F77B4;
+    color: #FFFFFF;
+	font-size: 28px;
+	border: 1px solid #FFFFFF;
+	text-align:center;
+	}
+          
+.shiny-split-layout > div {
+	overflow: visible;
+	}
+
+/* Popover Body */
+          
+.popover-content {
+	background-color: #8FBBD9;
+	color: #FFFFFF;
+	padding: 25px;
+	}
+          
+.popover {
+	width: 800px;
+	max-width:800px;
+	}
